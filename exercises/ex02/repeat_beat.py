@@ -23,4 +23,6 @@ while beat_times <= 0:
     print("No beat...")
     beat_times = (beat_times - beat_times) + 1
 
-print(beat_number)
+while i > 1:
+    print(beat_number)
+    i = i - i
