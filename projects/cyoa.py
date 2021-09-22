@@ -11,6 +11,7 @@ probability_2: int = randint(1, 5)
 player: str = ""
 number: str = ""
 game: int = 1
+NAMED_CONSTANT = "\U0001F44B"
 
 
 def main() -> None:
@@ -449,7 +450,7 @@ def quit() -> None:
         print(f"The player of the game has to be number {number}, {player} from UNC!")
     print(f"Total points for {player}: {points}")
     print("Game over!")
-    print(f"Goodbye, {player}.")
+    print(f"Goodbye, {player} {NAMED_CONSTANT}.")
 
 
 if __name__ == "__main__":
