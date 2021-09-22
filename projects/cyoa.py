@@ -373,6 +373,7 @@ def third_play(b: int) -> int:
 
 
 def benched(x: int) -> int:
+    """Taking a break."""
     global unc_score
     global duke_score
     unc_score = unc_score + 4
@@ -426,26 +427,28 @@ def last_play(x: int) -> int:
 
 
 def quit() -> None:
+    """End of the game."""
     global unc_score
     global duke_score
     global points
     global player
+    winner_score: int 
+    loser_score: int
+    winner: str = ""
     print(f"Final: UNC {unc_score} - Duke {duke_score}")
     if unc_score > duke_score:
-        winner: str = "UNC"
-        winner_score: int = unc_score
-        loser_score: int = duke_score
-        difference: int = winner_score - loser_score
-        print(f"And {winner} wins by {difference}!")
+        winner = "UNC"
+        winner_score = unc_score
+        loser_score = duke_score
     if unc_score < duke_score:
-        winner: str = "Duke"
-        winner_score: int = duke_score
-        loser_score: int = unc_score
-        difference: int = winner_score - loser_score
-        print(f"And {winner} wins by {difference}!")
-        print("Boooooooo!!!")
+        winner = "Duke"
+        winner_score = duke_score
+        loser_score = unc_score
     if unc_score == duke_score:
         print(f"And the game ends in a tie despite {player}'s best efforts.")
+    difference = winner_score - loser_score
+    if unc_score != duke_score:
+        print(f"And {winner} wins by {difference}.")
     if unc_score > duke_score and points > 4:
         print(f"The player of the game has to be number {number}, {player} from UNC!")
     print(f"Total points for {player}: {points}")
