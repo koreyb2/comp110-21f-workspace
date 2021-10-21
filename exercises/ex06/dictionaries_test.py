@@ -49,5 +49,3 @@ def test_count_one() -> None:
 def test_count_multiple() -> None:
     """Multiple of some values."""
     assert count(["a", "b", "a", "b"]) == {"a": 2, "b": 2}
-
-
