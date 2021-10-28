@@ -3,6 +3,7 @@
 __author__ = "730425339"
 
 # The string constant for the pine tree emoji
+<<<<<<< HEAD
 TREE: str = '\U0001F332'
 <<<<<<< HEAD
 Tree: str = '\U0001F332'
@@ -28,3 +29,6 @@ while (i < depth):
     print(tree)
     i += 1
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+TREE: str = '\U0001F332'
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1

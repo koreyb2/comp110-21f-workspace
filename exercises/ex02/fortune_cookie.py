@@ -1,10 +1,14 @@
 """Program that outputs one of at least four random, good fortunes."""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 __author__ = "730425339"
 =======
 __author__ = "730243388"
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+__author__ = "ENTER YOUR 9-DIGIT PID HERE"
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1
 
 # The randint function is imported from the random library so that
 # you are able to generate integers at random.
@@ -16,6 +20,7 @@ __author__ = "730243388"
 from random import randint
 
 
+<<<<<<< HEAD
 # Begin your solution here...
 <<<<<<< HEAD
 fortune = randint(1, 4)
@@ -55,3 +60,6 @@ else:
     print("you will meet a new friend tommorow")
 print("Now, go spread positive vibes!")
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+# Begin your solution here...
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1

@@ -1,6 +1,7 @@
 """An exercise in remainders and boolean logic."""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 __author__ = "730425339"
 
 
@@ -36,3 +37,9 @@ elif (num % 2 == 0):
 else:
     print("CAROLINA")
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+__author__ = "ENTER YOUR 9-DIGIT PID HERE"
+
+
+# Begin your solution here...
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1

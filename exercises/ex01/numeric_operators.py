@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 """Numeric Operators."""
 
 __author__ = 730425339
@@ -29,3 +30,5 @@ print(string_one + " / " + string_two + " is " + str(number_one / number_two))
 print(string_one + " // " + string_two + " is " + str(number_one // number_two))
 print(string_one + " % " + string_two + " is " + str(number_one % number_two))
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1

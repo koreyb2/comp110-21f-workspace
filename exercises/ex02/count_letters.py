@@ -1,6 +1,7 @@
 """Counting letters in a string."""
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 __author__ = "730425339"
 
 
@@ -36,3 +37,9 @@ while (i < len(word)):
     i += 1
 print("Count: " + str(count))
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+__author__ = "ENTER YOUR 9-DIGIT PID HERE"
+
+
+# Begin your solution here...
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1

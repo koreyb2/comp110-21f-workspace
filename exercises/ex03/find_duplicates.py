@@ -19,6 +19,7 @@ duplicate: str = duplicate
 print("Found duplicate: " + duplicate)
 =======
 __author__ = "123456789"
+<<<<<<< HEAD
 
 word: str = input("Enter a word: ")
 
@@ -34,3 +35,5 @@ while (i < len(word)):
 
 print("Found duplicate: " + str(duplicate))
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1

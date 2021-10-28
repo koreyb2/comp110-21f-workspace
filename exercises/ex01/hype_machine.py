@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TODO: Write docstring here
 """My Hype Machine!"""
 # TODO: Initialize __author__ variable here
@@ -20,3 +21,10 @@ print("Hey " + name + ", love the fit")
 print("On fire today " + name)
 print(name + "! " + name + "! " + name + "! ")
 >>>>>>> bfe00d0bc5e66cd0a568dfd7048add409d018ba1
+=======
+# TODO: Write docstring here
+
+# TODO: Initialize __author__ variable here
+
+# TODO: Implement your program logic here
+>>>>>>> 7eeff2db141e2d6eb3717903a147712487fff7e1
